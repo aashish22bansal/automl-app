@@ -1,0 +1,16 @@
+if (petal length (cm) > 2.45) and (petal length (cm) <= 4.95) and (petal length (cm) > 4.15) then response: 1.472 | based on 29 samples
+
+if (petal length (cm) > 2.45) and (petal length (cm) > 4.95) and (sepal width (cm) <= 3.05) then response: 1.954 | based on 26 samples
+
+if (petal length (cm) <= 2.45) and (sepal length (cm) > 4.95) and (petal length (cm) <= 1.55) then response: 0.244 | based on 16 samples
+
+if (petal length (cm) > 2.45) and (petal length (cm) <= 4.95) and (petal length (cm) <= 4.15) then response: 1.113 | based on 15 samples
+
+if (petal length (cm) <= 2.45) and (sepal length (cm) <= 4.95) and (sepal length (cm) <= 4.85) then response: 0.208 | based on 12 samples
+
+if (petal length (cm) > 2.45) and (petal length (cm) > 4.95) and (sepal width (cm) > 3.05) then response: 2.209 | based on 11 samples
+
+if (petal length (cm) <= 2.45) and (sepal length (cm) > 4.95) and (petal length (cm) > 1.55) then response: 0.338 | based on 8 samples
+
+if (petal length (cm) <= 2.45) and (sepal length (cm) <= 4.95) and (sepal length (cm) > 4.85) then response: 0.133 | based on 3 samples
+

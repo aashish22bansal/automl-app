@@ -1,0 +1,132 @@
+{
+    "uid": "95de7791-b8f0-47af-8342-4819d1c06b52",
+    "name": "18_RandomForest_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Cluster"
+                ],
+                "result_file": "18_RandomForest_KMeansFeatures\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "sepal length (cm)",
+                    "sepal width (cm)",
+                    "petal length (cm)"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.7657016649978772
+                ],
+                "mean": [
+                    1.2148148148148148
+                ],
+                "var": [
+                    0.5862990397805213
+                ],
+                "n_samples_seen": 135,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_4"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "6af06ad3-7918-4a64-8c9e-d7998254e6c4",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "squared_error",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 4,
+                "eval_metric_name": "rmse",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "kmeans_features": {
+                "results_path": "AutoML_4"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_4\\X.data",
+            "y_path": "AutoML_4\\y.data",
+            "results_path": "AutoML_4"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "criterion": "squared_error",
+            "max_features": 0.5,
+            "min_samples_split": 20,
+            "max_depth": 4,
+            "eval_metric_name": "rmse",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "18_RandomForest_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "18_RandomForest_KMeansFeatures\\learner_fold_0.random_forest"
+    ],
+    "predictions_fname": "18_RandomForest_KMeansFeatures\\predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": "0.11877845114002217",
+    "train_time": 0.897493839263916,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

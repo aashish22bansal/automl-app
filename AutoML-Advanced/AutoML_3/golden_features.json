@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "sepal length (cm)",
+            "feature2": "petal length (cm)",
+            "operation": "ratio",
+            "score": 0.144300707
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal length (cm)",
+            "operation": "ratio",
+            "score": 0.1469080602
+        },
+        {
+            "feature1": "sepal width (cm)",
+            "feature2": "petal length (cm)",
+            "operation": "diff",
+            "score": 0.1508866127
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal width (cm)",
+            "operation": "sum",
+            "score": 0.1628852209
+        },
+        {
+            "feature1": "sepal length (cm)",
+            "feature2": "petal length (cm)",
+            "operation": "diff",
+            "score": 0.1650930214
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal width (cm)",
+            "operation": "multiply",
+            "score": 0.1729263677
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal length (cm)",
+            "operation": "multiply",
+            "score": 0.2103263633
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal length (cm)",
+            "operation": "sum",
+            "score": 0.2372317867
+        },
+        {
+            "feature1": "sepal width (cm)",
+            "feature2": "petal length (cm)",
+            "operation": "ratio",
+            "score": 0.3191723895
+        },
+        {
+            "feature1": "petal length (cm)",
+            "feature2": "sepal width (cm)",
+            "operation": "ratio",
+            "score": 0.3195526285
+        }
+    ],
+    "new_columns": [
+        "sepal length (cm)_ratio_petal length (cm)",
+        "petal length (cm)_ratio_sepal length (cm)",
+        "sepal width (cm)_diff_petal length (cm)",
+        "petal length (cm)_sum_sepal width (cm)",
+        "sepal length (cm)_diff_petal length (cm)",
+        "petal length (cm)_multiply_sepal width (cm)",
+        "petal length (cm)_multiply_sepal length (cm)",
+        "petal length (cm)_sum_sepal length (cm)",
+        "sepal width (cm)_ratio_petal length (cm)",
+        "petal length (cm)_ratio_sepal width (cm)"
+    ],
+    "ml_task": "regression"
+}
