@@ -1,0 +1,73 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,rmse,0.1765500631922701,0.68
+2_Baseline,Baseline,rmse,0.7050065911413964,0.69
+3_DecisionTree,Decision Tree,rmse,0.16912419459461997,0.66
+4_DecisionTree,Decision Tree,rmse,0.16912419459461997,0.65
+5_Linear,Linear,rmse,0.1857657797135672,0.67
+6_Default_Xgboost,Xgboost,rmse,0.1488583163048658,0.79
+7_Default_NeuralNetwork,Neural Network,rmse,0.14942794118733682,0.77
+8_Default_RandomForest,Random Forest,rmse,0.11513370316265413,1.06
+9_Xgboost,Xgboost,rmse,0.1336847596934006,0.85
+18_RandomForest,Random Forest,rmse,0.12013630193206293,1.03
+27_NeuralNetwork,Neural Network,rmse,0.17018671899776758,0.79
+10_Xgboost,Xgboost,rmse,0.15734618903975928,0.79
+19_RandomForest,Random Forest,rmse,0.1331007500643298,1.19
+28_NeuralNetwork,Neural Network,rmse,0.16855946323403065,0.77
+11_Xgboost,Xgboost,rmse,0.1887646438359265,0.86
+20_RandomForest,Random Forest,rmse,0.13174853589023258,1.13
+29_NeuralNetwork,Neural Network,rmse,0.1822412249631883,0.75
+12_Xgboost,Xgboost,rmse,0.70042131147813,0.78
+21_RandomForest,Random Forest,rmse,0.15572876087217136,1.05
+30_NeuralNetwork,Neural Network,rmse,0.17063481095249916,0.73
+13_Xgboost,Xgboost,rmse,0.27434705473559423,0.9
+22_RandomForest,Random Forest,rmse,0.11770187773477384,1.03
+31_NeuralNetwork,Neural Network,rmse,0.22808817406477921,0.73
+14_Xgboost,Xgboost,rmse,0.15095334840253052,0.8
+23_RandomForest,Random Forest,rmse,0.13565117571681545,1.1
+32_NeuralNetwork,Neural Network,rmse,0.20783338181223274,0.75
+15_Xgboost,Xgboost,rmse,0.14805439433971926,0.82
+24_RandomForest,Random Forest,rmse,0.16745497054085484,1.41
+33_NeuralNetwork,Neural Network,rmse,0.22788510914968493,0.76
+16_Xgboost,Xgboost,rmse,0.1827328642710899,0.8
+25_RandomForest,Random Forest,rmse,0.13470185981884603,1.05
+34_NeuralNetwork,Neural Network,rmse,0.4514623867111923,0.77
+17_Xgboost,Xgboost,rmse,0.17433819498392503,0.84
+26_RandomForest,Random Forest,rmse,0.12735895959213472,1.08
+35_NeuralNetwork,Neural Network,rmse,0.24312162804412646,0.76
+8_Default_RandomForest_GoldenFeatures,Random Forest,rmse,0.12356589461982986,7.67
+22_RandomForest_GoldenFeatures,Random Forest,rmse,0.13683345708842215,1.46
+18_RandomForest_GoldenFeatures,Random Forest,rmse,0.13567901593879114,1.12
+8_Default_RandomForest_KMeansFeatures,Random Forest,rmse,0.12095047898471485,1.28
+22_RandomForest_KMeansFeatures,Random Forest,rmse,0.11852572155763236,1.25
+18_RandomForest_KMeansFeatures,Random Forest,rmse,0.11877845114002217,1.23
+8_Default_RandomForest_RandomFeature,Random Forest,rmse,0.11940699546707982,5.55
+36_RandomForest,Random Forest,rmse,0.11513370316265413,1.53
+37_RandomForest,Random Forest,rmse,0.1144045208931346,1.09
+38_RandomForest,Random Forest,rmse,0.164352980117223,1.09
+39_RandomForest,Random Forest,rmse,0.11770187773477381,1.13
+40_RandomForest,Random Forest,rmse,0.11852572155763239,1.24
+41_RandomForest,Random Forest,rmse,0.12504437405994148,1.79
+42_Xgboost,Xgboost,rmse,0.13265440470369713,1.06
+43_Xgboost,Xgboost,rmse,0.1345239270187904,0.96
+44_Xgboost,Xgboost,rmse,0.14977931441229475,0.92
+45_Xgboost,Xgboost,rmse,0.14689910685427737,0.9
+46_Xgboost,Xgboost,rmse,0.14992566393348639,0.89
+47_NeuralNetwork,Neural Network,rmse,0.2639825565525907,0.81
+48_NeuralNetwork,Neural Network,rmse,0.15926104665088145,0.83
+49_NeuralNetwork,Neural Network,rmse,0.1734527118515221,0.88
+50_NeuralNetwork,Neural Network,rmse,0.19429254105431842,0.82
+51_DecisionTree,Decision Tree,rmse,0.14135175337499203,0.75
+52_RandomForest,Random Forest,rmse,0.11680933254266594,1.13
+53_RandomForest,Random Forest,rmse,0.1144045208931346,1.18
+54_RandomForest,Random Forest,rmse,0.11657800865363484,1.16
+55_RandomForest,Random Forest,rmse,0.11513370316265413,1.17
+56_RandomForest,Random Forest,rmse,0.11657800865363484,1.21
+57_RandomForest,Random Forest,rmse,0.11513370316265413,1.2
+58_Xgboost,Xgboost,rmse,0.16500484283338296,0.93
+59_Xgboost,Xgboost,rmse,0.16429451099450734,0.94
+60_Xgboost,Xgboost,rmse,0.16417713752864557,0.94
+61_NeuralNetwork,Neural Network,rmse,0.15260616144426006,0.86
+62_NeuralNetwork,Neural Network,rmse,0.24170484121698108,0.86
+63_NeuralNetwork,Neural Network,rmse,0.2653391603032107,0.87
+64_NeuralNetwork,Neural Network,rmse,0.21543931506211847,0.89
+Ensemble,Ensemble,rmse,0.09711893084298726,8.26
