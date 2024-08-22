@@ -1,0 +1,879 @@
+{
+    "uid": "eb3059dd-21d4-402c-b4d0-a23f682c7689",
+    "name": "4_Linear_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.144300707
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.1469080602
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1508866127
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "sum",
+                        "score": 0.1628852209
+                    },
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1650930214
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "multiply",
+                        "score": 0.1729263677
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "multiply",
+                        "score": 0.2103263633
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "sum",
+                        "score": 0.2372317867
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.3191723895
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "ratio",
+                        "score": 0.3195526285
+                    }
+                ],
+                "new_columns": [
+                    "sepal length (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal length (cm)",
+                    "sepal width (cm)_diff_petal length (cm)",
+                    "petal length (cm)_sum_sepal width (cm)",
+                    "sepal length (cm)_diff_petal length (cm)",
+                    "petal length (cm)_multiply_sepal width (cm)",
+                    "petal length (cm)_multiply_sepal length (cm)",
+                    "petal length (cm)_sum_sepal length (cm)",
+                    "sepal width (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal width (cm)"
+                ],
+                "ml_task": "regression"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.7860226667552669,
+                        0.4174410321304345,
+                        1.7082697640404148,
+                        1.0350655041931116,
+                        0.2345827830961405,
+                        1.9267782668994162,
+                        1.5723901278899313,
+                        1.0967120968920638,
+                        5.006238989357048,
+                        12.610135758668138,
+                        2.4226549517638953,
+                        0.8464445637200064,
+                        0.6225028354764105
+                    ],
+                    "mean": [
+                        5.864285714285715,
+                        3.044642857142857,
+                        3.830357142857143,
+                        1.9616408571822337,
+                        0.6299819456229742,
+                        -0.7857142857142857,
+                        6.875,
+                        2.0339285714285715,
+                        11.352053571428572,
+                        23.62892857142857,
+                        9.694642857142858,
+                        1.1415450235392481,
+                        1.3110509762179734
+                    ],
+                    "var": [
+                        0.6178316326530613,
+                        0.17425701530612245,
+                        2.918185586734694,
+                        1.0713605979705405,
+                        0.0550290821251309,
+                        3.7124744897959183,
+                        2.472410714285714,
+                        1.2027774234693875,
+                        25.062428818558676,
+                        159.01552385204084,
+                        5.869257015306123,
+                        0.716468399451152,
+                        0.38750978017617094
+                    ],
+                    "n_samples_seen": 112,
+                    "n_features_in": 13,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)",
+                        "sepal length (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal length (cm)",
+                        "sepal width (cm)_diff_petal length (cm)",
+                        "petal length (cm)_sum_sepal width (cm)",
+                        "sepal length (cm)_diff_petal length (cm)",
+                        "petal length (cm)_multiply_sepal width (cm)",
+                        "petal length (cm)_multiply_sepal length (cm)",
+                        "petal length (cm)_sum_sepal length (cm)",
+                        "sepal width (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal width (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7402033426838927
+                ],
+                "mean": [
+                    1.238392857142857
+                ],
+                "var": [
+                    0.5479009885204081
+                ],
+                "n_samples_seen": 112,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.144300707
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.1469080602
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1508866127
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "sum",
+                        "score": 0.1628852209
+                    },
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1650930214
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "multiply",
+                        "score": 0.1729263677
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "multiply",
+                        "score": 0.2103263633
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "sum",
+                        "score": 0.2372317867
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.3191723895
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "ratio",
+                        "score": 0.3195526285
+                    }
+                ],
+                "new_columns": [
+                    "sepal length (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal length (cm)",
+                    "sepal width (cm)_diff_petal length (cm)",
+                    "petal length (cm)_sum_sepal width (cm)",
+                    "sepal length (cm)_diff_petal length (cm)",
+                    "petal length (cm)_multiply_sepal width (cm)",
+                    "petal length (cm)_multiply_sepal length (cm)",
+                    "petal length (cm)_sum_sepal length (cm)",
+                    "sepal width (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal width (cm)"
+                ],
+                "ml_task": "regression"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.8255467421469167,
+                        0.438337391021285,
+                        1.7694399029503831,
+                        1.0788686070706195,
+                        0.2424416367387848,
+                        2.013512825060639,
+                        1.6099318558116498,
+                        1.1337158827528715,
+                        5.248171280142664,
+                        13.115522595915378,
+                        2.5178519186875894,
+                        0.8907721456616041,
+                        0.6479080120388184
+                    ],
+                    "mean": [
+                        5.833928571428572,
+                        3.0732142857142857,
+                        3.708035714285714,
+                        2.056021837923779,
+                        0.610520511047005,
+                        -0.6348214285714285,
+                        6.78125,
+                        2.1258928571428575,
+                        11.030000000000001,
+                        22.895982142857147,
+                        9.541964285714284,
+                        1.223456446575321,
+                        1.267722197170352
+                    ],
+                    "var": [
+                        0.6815274234693878,
+                        0.19213966836734692,
+                        3.1309175701530614,
+                        1.1639574713224987,
+                        0.058777947224580886,
+                        4.054233896683675,
+                        2.5918805803571425,
+                        1.2853117028061227,
+                        27.543301785714284,
+                        172.01693296396687,
+                        6.339578284438774,
+                        0.7934750154865781,
+                        0.41978479206409375
+                    ],
+                    "n_samples_seen": 112,
+                    "n_features_in": 13,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)",
+                        "sepal length (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal length (cm)",
+                        "sepal width (cm)_diff_petal length (cm)",
+                        "petal length (cm)_sum_sepal width (cm)",
+                        "sepal length (cm)_diff_petal length (cm)",
+                        "petal length (cm)_multiply_sepal width (cm)",
+                        "petal length (cm)_multiply_sepal length (cm)",
+                        "petal length (cm)_sum_sepal length (cm)",
+                        "sepal width (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal width (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7605025694652618
+                ],
+                "mean": [
+                    1.1696428571428572
+                ],
+                "var": [
+                    0.5783641581632654
+                ],
+                "n_samples_seen": 112,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.144300707
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.1469080602
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1508866127
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "sum",
+                        "score": 0.1628852209
+                    },
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1650930214
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "multiply",
+                        "score": 0.1729263677
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "multiply",
+                        "score": 0.2103263633
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "sum",
+                        "score": 0.2372317867
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.3191723895
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "ratio",
+                        "score": 0.3195526285
+                    }
+                ],
+                "new_columns": [
+                    "sepal length (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal length (cm)",
+                    "sepal width (cm)_diff_petal length (cm)",
+                    "petal length (cm)_sum_sepal width (cm)",
+                    "sepal length (cm)_diff_petal length (cm)",
+                    "petal length (cm)_multiply_sepal width (cm)",
+                    "petal length (cm)_multiply_sepal length (cm)",
+                    "petal length (cm)_sum_sepal length (cm)",
+                    "sepal width (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal width (cm)"
+                ],
+                "ml_task": "regression"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.8400369935430181,
+                        0.4330011719150272,
+                        1.7469631751089605,
+                        1.0214718362397535,
+                        0.23655701614263783,
+                        1.9451665630338764,
+                        1.6416661482128794,
+                        1.0893197829262573,
+                        5.303426156733181,
+                        13.16171395962846,
+                        2.5156445261484452,
+                        0.8315525609342255,
+                        0.6309095613939569
+                    ],
+                    "mean": [
+                        5.845132743362833,
+                        3.0380530973451325,
+                        3.8495575221238942,
+                        1.9511668625825578,
+                        0.6337597683591855,
+                        -0.811504424778761,
+                        6.887610619469027,
+                        1.9955752212389382,
+                        11.423008849557522,
+                        23.786637168141592,
+                        9.694690265486726,
+                        1.1377645393697944,
+                        1.3199549879351369
+                    ],
+                    "var": [
+                        0.7056621505207926,
+                        0.18749001487978695,
+                        3.0518803351867807,
+                        1.0434047122310135,
+                        0.05595922188630822,
+                        3.7836729579450235,
+                        2.6950677421881117,
+                        1.1866175894745086,
+                        28.126328999921682,
+                        173.23071435507867,
+                        6.328467381940636,
+                        0.6914796615962688,
+                        0.3980468746583152
+                    ],
+                    "n_samples_seen": 113,
+                    "n_features_in": 13,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)",
+                        "sepal length (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal length (cm)",
+                        "sepal width (cm)_diff_petal length (cm)",
+                        "petal length (cm)_sum_sepal width (cm)",
+                        "sepal length (cm)_diff_petal length (cm)",
+                        "petal length (cm)_multiply_sepal width (cm)",
+                        "petal length (cm)_multiply_sepal length (cm)",
+                        "petal length (cm)_sum_sepal length (cm)",
+                        "sepal width (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal width (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7692011777653727
+                ],
+                "mean": [
+                    1.2442477876106197
+                ],
+                "var": [
+                    0.5916704518756364
+                ],
+                "n_samples_seen": 113,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.144300707
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.1469080602
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1508866127
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "sum",
+                        "score": 0.1628852209
+                    },
+                    {
+                        "feature1": "sepal length (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "diff",
+                        "score": 0.1650930214
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "multiply",
+                        "score": 0.1729263677
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "multiply",
+                        "score": 0.2103263633
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal length (cm)",
+                        "operation": "sum",
+                        "score": 0.2372317867
+                    },
+                    {
+                        "feature1": "sepal width (cm)",
+                        "feature2": "petal length (cm)",
+                        "operation": "ratio",
+                        "score": 0.3191723895
+                    },
+                    {
+                        "feature1": "petal length (cm)",
+                        "feature2": "sepal width (cm)",
+                        "operation": "ratio",
+                        "score": 0.3195526285
+                    }
+                ],
+                "new_columns": [
+                    "sepal length (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal length (cm)",
+                    "sepal width (cm)_diff_petal length (cm)",
+                    "petal length (cm)_sum_sepal width (cm)",
+                    "sepal length (cm)_diff_petal length (cm)",
+                    "petal length (cm)_multiply_sepal width (cm)",
+                    "petal length (cm)_multiply_sepal length (cm)",
+                    "petal length (cm)_sum_sepal length (cm)",
+                    "sepal width (cm)_ratio_petal length (cm)",
+                    "petal length (cm)_ratio_sepal width (cm)"
+                ],
+                "ml_task": "regression"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.8474725521701618,
+                        0.44701917345488773,
+                        1.8029934819969327,
+                        1.0876768511813975,
+                        0.24389310261322816,
+                        2.0407217799960633,
+                        1.65429075188406,
+                        1.1326113031426883,
+                        5.294129453688278,
+                        13.442528028360188,
+                        2.579763958505484,
+                        0.8926422179233838,
+                        0.6627256335927117
+                    ],
+                    "mean": [
+                        5.830088495575222,
+                        3.0734513274336286,
+                        3.6442477876106203,
+                        2.103209425936072,
+                        0.5980877696081466,
+                        -0.5707964601769913,
+                        6.7176991150442475,
+                        2.185840707964602,
+                        10.843451327433629,
+                        22.589380530973454,
+                        9.47433628318584,
+                        1.2513242893304868,
+                        1.246482550675544
+                    ],
+                    "var": [
+                        0.7182097266818077,
+                        0.19982614143629102,
+                        3.2507854961234237,
+                        1.18304093259588,
+                        0.05948384550230665,
+                        4.164545383350301,
+                        2.736677891769128,
+                        1.2828083640065786,
+                        28.027806672409742,
+                        180.70155979324926,
+                        6.655182081603885,
+                        0.7968101292191779,
+                        0.4392052654208612
+                    ],
+                    "n_samples_seen": 113,
+                    "n_features_in": 13,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)",
+                        "sepal length (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal length (cm)",
+                        "sepal width (cm)_diff_petal length (cm)",
+                        "petal length (cm)_sum_sepal width (cm)",
+                        "sepal length (cm)_diff_petal length (cm)",
+                        "petal length (cm)_multiply_sepal width (cm)",
+                        "petal length (cm)_multiply_sepal length (cm)",
+                        "petal length (cm)_sum_sepal length (cm)",
+                        "sepal width (cm)_ratio_petal length (cm)",
+                        "petal length (cm)_ratio_sepal width (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7635491361164356
+                ],
+                "mean": [
+                    1.145132743362832
+                ],
+                "var": [
+                    0.5830072832641552
+                ],
+                "n_samples_seen": 113,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "9ac5c16d-2531-4443-8d5a-8ad842a44b14",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "78002e0a-118f-492f-8f46-aee3fe4f1832",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "8c1d33ac-7cf8-43cc-a46f-c66ce208b4db",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "8ca8861b-7dbb-4793-8cf4-c5f30b39e800",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "sepal length (cm)": [
+                    "scale_normal"
+                ],
+                "sepal width (cm)": [
+                    "scale_normal"
+                ],
+                "petal length (cm)": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_3",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 4,
+            "shuffle": true,
+            "random_seed": 123,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "4_Linear_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "4_Linear_GoldenFeatures\\learner_fold_0.linear",
+        "4_Linear_GoldenFeatures\\learner_fold_1.linear",
+        "4_Linear_GoldenFeatures\\learner_fold_2.linear",
+        "4_Linear_GoldenFeatures\\learner_fold_3.linear"
+    ],
+    "predictions_fname": "4_Linear_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "0.19926467394704",
+    "train_time": 4.465598106384277,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

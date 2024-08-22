@@ -1,0 +1,150 @@
+{
+    "uid": "9fa57d41-14ad-4cfd-81a7-977ba9abc185",
+    "name": "5_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.8135805217101271,
+                        0.4608310690857268,
+                        1.7602322489242892
+                    ],
+                    "mean": [
+                        5.857142857142857,
+                        3.0616071428571425,
+                        3.7794642857142855
+                    ],
+                    "var": [
+                        0.6619132653061225,
+                        0.2123652742346939,
+                        3.098417570153061
+                    ],
+                    "n_samples_seen": 112,
+                    "n_features_in": 3,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.770336011200996
+                ],
+                "mean": [
+                    1.2205357142857143
+                ],
+                "var": [
+                    0.5934175701530612
+                ],
+                "n_samples_seen": 112,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "e218cf03-319c-4a31-af4f-f5476020f26e",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "sepal length (cm)": [
+                    "scale_normal"
+                ],
+                "sepal width (cm)": [
+                    "scale_normal"
+                ],
+                "petal length (cm)": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "5_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "5_Default_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "5_Default_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": "0.16533302555920254",
+    "train_time": 0.4725499153137207,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Ensemble_Stacked",
+    "ml_task": "regression",
+    "optimize_metric": "rmse",
+    "selected_models": [
+        {
+            "model": "37_RandomForest",
+            "repeat": 1.0
+        },
+        {
+            "model": "4_Linear",
+            "repeat": 8.0
+        },
+        {
+            "model": "64_NearestNeighbors",
+            "repeat": 2.0
+        },
+        {
+            "model": "67_CatBoost_Stacked",
+            "repeat": 14.0
+        },
+        {
+            "model": "Ensemble",
+            "repeat": 3.0
+        }
+    ],
+    "predictions_fname": "Ensemble_Stacked\\predictions_ensemble.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.17208870546845048,
+    "train_time": 1.232743501663208,
+    "is_stacked": true
+}

@@ -1,0 +1,386 @@
+{
+    "uid": "b9326a1e-f8e6-4f47-9c1e-603cf860345f",
+    "name": "4_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.7860226667552669,
+                        0.4174410321304345,
+                        1.7082697640404148
+                    ],
+                    "mean": [
+                        5.864285714285715,
+                        3.044642857142857,
+                        3.830357142857143
+                    ],
+                    "var": [
+                        0.6178316326530613,
+                        0.17425701530612245,
+                        2.918185586734694
+                    ],
+                    "n_samples_seen": 112,
+                    "n_features_in": 3,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7402033426838927
+                ],
+                "mean": [
+                    1.238392857142857
+                ],
+                "var": [
+                    0.5479009885204081
+                ],
+                "n_samples_seen": 112,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.8255467421469167,
+                        0.438337391021285,
+                        1.7694399029503831
+                    ],
+                    "mean": [
+                        5.833928571428572,
+                        3.0732142857142857,
+                        3.708035714285714
+                    ],
+                    "var": [
+                        0.6815274234693878,
+                        0.19213966836734692,
+                        3.1309175701530614
+                    ],
+                    "n_samples_seen": 112,
+                    "n_features_in": 3,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7605025694652618
+                ],
+                "mean": [
+                    1.1696428571428572
+                ],
+                "var": [
+                    0.5783641581632654
+                ],
+                "n_samples_seen": 112,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.8400369935430181,
+                        0.4330011719150272,
+                        1.7469631751089605
+                    ],
+                    "mean": [
+                        5.845132743362833,
+                        3.0380530973451325,
+                        3.8495575221238942
+                    ],
+                    "var": [
+                        0.7056621505207926,
+                        0.18749001487978695,
+                        3.0518803351867807
+                    ],
+                    "n_samples_seen": 113,
+                    "n_features_in": 3,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7692011777653727
+                ],
+                "mean": [
+                    1.2442477876106197
+                ],
+                "var": [
+                    0.5916704518756364
+                ],
+                "n_samples_seen": 113,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.8474725521701618,
+                        0.44701917345488773,
+                        1.8029934819969327
+                    ],
+                    "mean": [
+                        5.830088495575222,
+                        3.0734513274336286,
+                        3.6442477876106203
+                    ],
+                    "var": [
+                        0.7182097266818077,
+                        0.19982614143629102,
+                        3.2507854961234237
+                    ],
+                    "n_samples_seen": 113,
+                    "n_features_in": 3,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7635491361164356
+                ],
+                "mean": [
+                    1.145132743362832
+                ],
+                "var": [
+                    0.5830072832641552
+                ],
+                "n_samples_seen": 113,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "sepal length (cm)": [
+                        "scale_normal"
+                    ],
+                    "sepal width (cm)": [
+                        "scale_normal"
+                    ],
+                    "petal length (cm)": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "c8d96587-8a06-4008-9b41-3d2c25a9d8f3",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "5350c4a8-fc02-47f4-85a8-65451b91e8fb",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "28e848e2-a384-449f-b299-c4e0432a42b1",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "bbf7c610-d56c-4698-a774-bf8195d4b77f",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "sepal length (cm)": [
+                    "scale_normal"
+                ],
+                "sepal width (cm)": [
+                    "scale_normal"
+                ],
+                "petal length (cm)": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 4,
+            "shuffle": true,
+            "random_seed": 123,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "4_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "4_Linear\\learner_fold_0.linear",
+        "4_Linear\\learner_fold_1.linear",
+        "4_Linear\\learner_fold_2.linear",
+        "4_Linear\\learner_fold_3.linear"
+    ],
+    "predictions_fname": "4_Linear\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "0.19411710101991855",
+    "train_time": 0.6871554851531982,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}
